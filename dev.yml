@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Configuration de l'environnement de développement LGPlugin
+# Partagez ce fichier avec les autres développeurs : il décrit tout ce qu'il faut.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Chemin du dossier serveur local, relatif à la racine du projet Maven (LGPlugin/)
+# Exemple : si votre arborescence est  minecraft-dev/server  et  minecraft-dev/LGPlugin
+# alors le chemin relatif est  ../server
+server_dir: "../server"
+
+# Nom du jar Paper à utiliser (doit être présent dans server_dir/)
+paper_jar: "paper-1.21.11-127.jar"
+
+# Commande Java pour démarrer le serveur
+# Utilisez le chemin complet si java 21 n'est pas dans votre PATH
+java_cmd: "java"
+
+# Mémoire allouée au serveur de test (en Mo)
+memory_mb: 1024
+
+# ─── Setup automatique (utilisé par setup-env.sh) ────────────────────────────
+
+# Version de Paper à télécharger automatiquement
+paper_version: "1.21.1"
+paper_build: "127"
+
+# Version de Java requise
+java_version: "21"
